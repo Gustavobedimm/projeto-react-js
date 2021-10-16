@@ -21,10 +21,16 @@ function App(){
 
   return (
     <BrowserRouter>
-        <Header/>
+        
         <Routes/>
-        <Foorter/>
+        
     </BrowserRouter>
   );
 }
 export default App;
+
+//<BrowserRouter>
+//        <Header/>
+//        <Routes/>
+//        <Foorter/>
+//    </BrowserRouter>

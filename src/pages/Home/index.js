@@ -331,9 +331,9 @@ function Page() {
         </Paper>
         <br></br>
         {/* Componente */}
-        <GraficoPizza dataInicio={selectedDate} dataFim={selectedDate2}></GraficoPizza>
+        <GraficoPizza  dataInicio={selectedDate} dataFim={selectedDate2}></GraficoPizza>
         <br></br>
-        <GraficoBubble dataInicio={selectedDate} dataFim={selectedDate2}></GraficoBubble>
+        <GraficoBubble  dataInicio={selectedDate} dataFim={selectedDate2}></GraficoBubble>
         <br></br>
         
       
@@ -477,6 +477,8 @@ function Page() {
         <br></br>
         
       </Container>
+
+
 
 
       <Modal

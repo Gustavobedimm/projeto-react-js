@@ -2,12 +2,13 @@ import React from 'react';
 import  { Switch,Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Login from './pages/Login';
+import Dashboard from './pages/Dashboard';
 // eslint-disable-next-line import/no-anonymous-default-export
 export default () => {
     return(
         <Switch>
             <Route exact path="/"> 
-                <Home/>
+                <Dashboard/>            
             </Route>
             <Route exact path="/Logout"> 
                 <Login/>
@@ -15,3 +16,4 @@ export default () => {
         </Switch>
     );
 }
+//<Home/>

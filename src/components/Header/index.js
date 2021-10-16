@@ -1,5 +1,5 @@
 import React from 'react';
-//import  {Link }  from 'react-router-dom';
+import  {Link }  from 'react-router-dom';
 import {AreaHeader} from './styled';
 import { Navbar, Container, Nav } from 'react-bootstrap';
 
@@ -14,6 +14,8 @@ function Header(){
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
+      <Link to="/" className="links">Pedidos de Venda</Link>
+      <Link to="/Logout" className="links">Notas de Venda</Link>
         
         
         
